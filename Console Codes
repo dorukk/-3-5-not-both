@@ -1,0 +1,18 @@
+Console.WriteLine("Divisible by 5 (not3)");
+            for(int i = 1; i <= 1000; i++)
+            {
+                if (i % 5 == 0 & i%3!=0 )
+                {
+                    Console.WriteLine(i);
+                }
+            }
+            Console.WriteLine("Divisible by 3 (not5)");
+            for (int i = 1; i <= 1000; i++)
+            {
+                if (i % 3 == 0 & i % 5 != 0)
+                {
+                    Console.WriteLine(i);
+                }
+            }
+
+                Console.ReadKey();
